@@ -4,8 +4,8 @@ Lo scopo di questo progetto è quello di individuare la quantità di parole non 
 Il programma è utile per investigare le modalità di scrittura degli autori delle pagine di Wikipedia e la presenza di neologismi e/o di anglicismi nella lingua italiana.
 
 Input:
-• un corpus composto da testi estratti dalle pagine di Wikipedia in lingua italiana, di dimensione di 2.24 GB, suddiviso in 24 documenti con estensione .txt;
-• un formario della lingua italiana, contenente 1.268.440 forme.
+- un corpus composto da testi estratti dalle pagine di Wikipedia in lingua italiana, di dimensione di 2.24 GB, suddiviso in 24 documenti con estensione .txt;
+- un formario della lingua italiana, contenente 1.268.440 forme.
 
 In output restituisce un file contenente le parole non riconosciute (ovvero non presenti all’interno del formario), in ordine alfabetico, seguite dalla loro frequenza all’interno dei testi presi in esame.
 Il programma ha quindi lo scopo di identificare e quantificare (in tempi brevi) i non-word error – ovvero quegli errori commessi dagli autori dei testi che corrispondono a sequenze di caratteri non riconducibili a una qualsiasi forma della lingua standard – e tutti i termini che possono essere ricondotti ad aree della lingua diverse da quella standard.
